@@ -5,7 +5,6 @@ C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\Empr
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\EmprestimoLivros.API.runtimeconfig.json
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\EmprestimoLivros.API.runtimeconfig.dev.json
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\EmprestimoLivros.API.dll
-C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\ref\EmprestimoLivros.API.dll
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\EmprestimoLivros.API.pdb
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\Humanizer.dll
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
@@ -51,7 +50,6 @@ C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\Empr
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\EmprestimoLivros.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\EmprestimoLivros.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\staticwebassets\EmprestimoLivros.API.StaticWebAssets.Manifest.cache
-C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\staticwebassets\EmprestimoLivros.API.StaticWebAssets.xml
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\scopedcss\bundle\EmprestimoLivros.API.styles.css
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\EmprestimoLivros.API.RazorTargetAssemblyInfo.cache
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\EmprestimoLivros.API.csproj.CopyComplete
@@ -59,3 +57,10 @@ C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\Empr
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\ref\EmprestimoLivros.API.dll
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\EmprestimoLivros.API.pdb
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\EmprestimoLivros.API.genruntimeconfig.cache
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\EmprestimoLivros.API.StaticWebAssets.xml
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\staticwebassets\EmprestimoLivros.API.StaticWebAssets.Pack.cache
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\staticwebassets\msbuild.EmprestimoLivros.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\staticwebassets\msbuild.build.EmprestimoLivros.API.props
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.EmprestimoLivros.API.props
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.EmprestimoLivros.API.props
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\refint\EmprestimoLivros.API.dll
