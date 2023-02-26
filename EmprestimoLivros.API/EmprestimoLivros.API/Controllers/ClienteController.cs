@@ -31,6 +31,16 @@ namespace EmprestimoLivros.API.Controllers
             }
             return BadRequest("Ocorreu um erro ao salvar o Cliente.");
         }
+        [HttpPut]
+        public async Task<ActionResult> AlterarCliente(Cliente cliente)
+        {
+            _clienteRepository.Alterar(cliente);
+            if (await _clienteRepository.SaveAllAsync())
+            {
+                return Ok("Cliente alterado com Sucesso!");
+            }
+            return BadRequest("Ocorreu um erro ao alterar o Cliente.");
+        }
 
 
     }
