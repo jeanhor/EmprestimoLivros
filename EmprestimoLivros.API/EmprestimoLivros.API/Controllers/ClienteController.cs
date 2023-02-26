@@ -41,7 +41,22 @@ namespace EmprestimoLivros.API.Controllers
             }
             return BadRequest("Ocorreu um erro ao alterar o Cliente.");
         }
-
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> ExcluirCliente(int id)
+        {
+            var cliente = await _clienteRepository.SelecionarByPk(id);
+            if (cliente == null)
+            {
+                return NotFound("Cliente não Encontrado.");
+            }
+            _clienteRepository.Excluir(cliente);
+            if (await _clienteRepository.SaveAllAsync())
+            {
+                return Ok("Cliente Excluido");
+            }
+            return BadRequest("Ocorreu um erro ao excluir .");
+        }
 
     }
+    
 }
