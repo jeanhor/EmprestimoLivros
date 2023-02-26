@@ -20,5 +20,18 @@ namespace EmprestimoLivros.API.Controllers
         {
             return Ok(await _clienteRepository.SelecionarTodos());
         }
+
+        [HttpPost]
+        public async Task<ActionResult> CadastrarCliente(Cliente cliente)
+        {
+            _clienteRepository.Incluir(cliente);
+            if (await _clienteRepository.SaveAllAsync())
+            {
+                return Ok("Cliente Cadastrado com Sucesso!");
+            }
+            return BadRequest("Ocorreu um erro ao salvar o Cliente.");
+        }
+
+
     }
 }
