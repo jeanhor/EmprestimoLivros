@@ -56,6 +56,17 @@ namespace EmprestimoLivros.API.Controllers
             }
             return BadRequest("Ocorreu um erro ao excluir .");
         }
+        [HttpGet("{id}")]
+        public async Task<ActionResult> SelecionarClientes(int id)
+        {
+            var cliente = await _clienteRepository.SelecionarByPk(id);
+            if (cliente == null)
+            {
+                return NotFound("Cliente não encontrado");
+            }
+
+            return Ok(cliente);
+        }
 
     }
     
