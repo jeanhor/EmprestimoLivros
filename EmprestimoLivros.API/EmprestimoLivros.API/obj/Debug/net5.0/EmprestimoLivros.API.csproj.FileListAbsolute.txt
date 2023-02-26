@@ -57,10 +57,10 @@ C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\Empr
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\ref\EmprestimoLivros.API.dll
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\EmprestimoLivros.API.pdb
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\EmprestimoLivros.API.genruntimeconfig.cache
-C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\EmprestimoLivros.API.StaticWebAssets.xml
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\staticwebassets\EmprestimoLivros.API.StaticWebAssets.Pack.cache
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\staticwebassets\msbuild.EmprestimoLivros.API.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\staticwebassets\msbuild.build.EmprestimoLivros.API.props
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.EmprestimoLivros.API.props
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.EmprestimoLivros.API.props
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\refint\EmprestimoLivros.API.dll
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\efpt.config.json
