@@ -35,6 +35,11 @@ namespace EmprestimoLivros.API.Repositories
             return await _context.SaveChangesAsync()>0;
         }
 
+        public async Task<Cliente> SelecionarByCpf(string cpf)
+        {
+            return await _context.Cliente.Where(x => x.CliCpf == cpf).FirstOrDefaultAsync();
+        }
+
         public async Task<Cliente> SelecionarByPk(int id)
         {
             return await _context.Cliente.Where(x => x.Id == id).FirstOrDefaultAsync();

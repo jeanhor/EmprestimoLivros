@@ -66,8 +66,7 @@ namespace EmprestimoLivros.API.Controllers
             }
 
             return Ok(cliente);
-        }
-
+        }          
     }
     
 }

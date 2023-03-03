@@ -11,6 +11,7 @@ namespace EmprestimoLivros.API.Interface
         void Alterar(Cliente cliente);
         void Excluir(Cliente cliente);
         Task<Cliente> SelecionarByPk(int id);
+        Task<Cliente> SelecionarByCpf(string cpf);
         Task<IEnumerable<Cliente>> SelecionarTodos();
         Task<bool> SaveAllAsync();
     }
