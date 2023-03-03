@@ -45,7 +45,7 @@ namespace EmprestimoLivros.API.Repositories
             return await _context.Cliente.Where(x => x.Id == id).FirstOrDefaultAsync();
         }
 
-        public Task<Cliente> SelecionarContendo(string nome)
+        public async Task<Cliente> SelecionarContendo(string nome)
         {
            
             throw new System.NotImplementedException();
