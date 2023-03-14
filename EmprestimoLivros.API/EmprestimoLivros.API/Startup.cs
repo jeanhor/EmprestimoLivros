@@ -16,6 +16,9 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using EmprestimoLivros.API.Interface;
 using EmprestimoLivros.API.Repositories;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 namespace EmprestimoLivros.API
 {
@@ -41,7 +44,26 @@ namespace EmprestimoLivros.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "EmprestimoLivros.API", Version = "v1" });
             });
+            var key = Encoding.ASCII.GetBytes(Settings.Secret);
+            services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(x =>
+            {
+                x.RequireHttpsMetadata = false;
+                x.SaveToken = true;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false
+                };
+            });
             services.AddScoped<IClienteRepository, ClienteRepository>();
+
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,6 +81,7 @@ namespace EmprestimoLivros.API
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {

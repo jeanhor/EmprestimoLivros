@@ -1,5 +1,6 @@
 ﻿using EmprestimoLivros.API.Entityes;
 using EmprestimoLivros.API.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ namespace EmprestimoLivros.API.Controllers
         {
             _clienteRepository = clienteRepository;
         }
+       
         [HttpGet("selecionartodos")]
         public async Task<ActionResult<IEnumerable<Cliente>>> GetClientes()
         {

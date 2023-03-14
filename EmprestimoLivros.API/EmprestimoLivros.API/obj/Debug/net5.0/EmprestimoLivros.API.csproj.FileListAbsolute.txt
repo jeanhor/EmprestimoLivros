@@ -58,5 +58,12 @@ C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\Empr
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\EmprestimoLivros.API.pdb
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\EmprestimoLivros.API.genruntimeconfig.cache
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\efpt.config.json
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\ref\EmprestimoLivros.API.dll
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\Google.Apis.dll
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\Google.Apis.Admin.Directory.directory_v1.dll
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\Google.Apis.Auth.dll
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\Google.Apis.Core.dll
+C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\bin\Debug\net5.0\ICSharpCode.Decompiler.dll
 C:\Users\jeanh\OneDrive\Documentos\Projetos Particulares\Emprestimos Livros\EmprestimoLivros.API\EmprestimoLivros.API\obj\Debug\net5.0\staticwebassets\EmprestimoLivros.API.StaticWebAssets.xml
