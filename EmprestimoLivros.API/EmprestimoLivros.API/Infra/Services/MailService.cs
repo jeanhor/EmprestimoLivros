@@ -12,6 +12,8 @@ namespace EmprestimoLivros.API.Infra.Services
         private string smtpAdress => "smtp.gmail.com";
         private int portNumber => 587;
         private string emailFromAddress => "jean.horacio35@gmail.com";
+
+        //Senha criada atraves do Gmail
         private string password => "jxxuatypibbuuqye";
         public void AddEmailsToMailMessage(MailMessage mailMessage, string[] emails)
         {
