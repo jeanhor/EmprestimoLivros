@@ -19,6 +19,7 @@ using EmprestimoLivros.API.Repositories;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using EmprestimoLivros.API.Infra.Services;
 
 namespace EmprestimoLivros.API
 {
@@ -62,7 +63,7 @@ namespace EmprestimoLivros.API
                 };
             });
             services.AddScoped<IClienteRepository, ClienteRepository>();
-
+            services.AddScoped<IMailService, MailService>();
             
         }
 
